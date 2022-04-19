@@ -1,0 +1,233 @@
+@charset "utf-8";
+
+* {
+  box-sizing: border-box;
+}
+
+.gnb>ul>li:nth-child(7) {
+  background-color: white;
+}
+
+.gnb>ul>li:nth-child(7)>a {
+  color: #33afe9;
+}
+section {
+  width: 1200px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.location {
+  border: 1px solid #ababab;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding-top: 10px;
+  margin: 10px 0;
+}
+
+svg {
+  float: left;
+  height: 400px;
+  width: 320px;
+  margin-left: 50px;
+  /* background-color: pink; */
+}
+
+.st0 {
+  fill: #FFFFFF;
+  stroke: #666666;
+  stroke-width: 0.4;
+  stroke-linejoin: round;
+}
+
+.st1 {
+  fill: #FFFFFF;
+  stroke: #54545A;
+  stroke-width: 0.4;
+  stroke-linejoin: round;
+}
+
+.st2 {
+  fill: #FFFFFF;
+  stroke: #555555;
+  stroke-width: 0.4;
+  stroke-linejoin: round;
+}
+
+.st3 {
+  fill: #FFFFFF;
+}
+
+.st4 {
+  font-family: 'NanumGothic';
+}
+
+.st5 {
+  font-size: 12px;
+}
+
+rect,
+text {
+  display: none;
+}
+
+svg a:hover path {
+  fill: #426AB3;
+}
+
+svg a:nth-child(1):hover~.Seoul {
+  display: block;
+}
+
+svg a:nth-child(2):hover~.BS {
+  display: block;
+}
+
+svg a:nth-child(3):hover~.DG {
+  display: block;
+}
+
+svg a:nth-child(4):hover~.IC {
+  display: block;
+}
+
+svg a:nth-child(5):hover~.GJ {
+  display: block;
+}
+
+svg a:nth-child(6):hover~.DJ {
+  display: block;
+}
+
+svg a:nth-child(7):hover~.WS {
+  display: block;
+}
+
+svg a:nth-child(8):hover~.SJ {
+  display: block;
+}
+
+svg a:nth-child(9):hover~.GG {
+  display: block;
+}
+
+svg a:nth-child(10):hover~.GW {
+  display: block;
+}
+
+svg a:nth-child(11):hover~.CB {
+  display: block;
+}
+
+svg a:nth-child(12):hover~.CN {
+  display: block;
+}
+
+svg a:nth-child(13):hover~.JB {
+  display: block;
+}
+
+svg a:nth-child(14):hover~.JN {
+  display: block;
+}
+
+svg a:nth-child(15):hover~.GB {
+  display: block;
+}
+
+svg a:nth-child(16):hover~.GN {
+  display: block;
+}
+
+svg a:nth-child(17):hover~.Jeju {
+  display: block;
+}
+
+
+.selectLocation {
+  float: left;
+  width: 825px;
+  height: 400px;
+  font-size: 13px;
+}
+
+.selectLocation p {
+  width: 600px;
+  margin-top: 90px;
+  margin-left: 150px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.selectLocation ul {
+  margin-left: 150px;
+}
+
+.selectLocation li {
+  float: left;
+}
+
+.selectLocation li a {
+  display: block;
+  width: 150px;
+  height: 30px;
+  margin: 1px;
+  text-align: center;
+  line-height: 30px;
+  font-weight: bold;
+  background-color: #ababab;
+}
+
+.selectLocation li a:hover {
+  background-color: #fff;
+  color: #426AB3;
+}
+
+section .locationDetail {
+  margin: auto;
+  border-collapse: collapse;
+}
+
+section .locationDetail tr {
+  height: 40px;
+}
+section .locationDetail thead {
+  height: 50px;
+  background-color: #33afe8;
+}
+
+section .locationDetail th:nth-child(1) {
+  width: 100px;
+}
+
+section .locationDetail th:nth-child(2) {
+  width: 200px;
+}
+
+section .locationDetail th:nth-child(3) {
+  width: 600px;
+}
+
+section .locationDetail th:nth-child(4) {
+  width: 300px;
+}
+
+section .locationDetail td {
+  text-align: center;
+}
+section .locationDetail a:hover {
+  text-decoration: underline;
+  color: #EE3C96;
+}
+.selectLocation li:nth-child(2) a {
+  background-color: #33afe8;
+}
+.selectLocation li:nth-child(2) a:hover {
+  color: #333;
+}
+
+
+footer {
+  clear: both;
+}

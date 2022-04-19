@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>알라딘</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link href="./images/index.ico" type="image/x-icon" rel="shortcut icon" />
+</head>
+
+<body>
+    <div class="container">
+        <!-- 헤더 시작 -->
+        <header>
+            <h1>LOGO
+                <a href="./index.html">
+                    <img src="./images/logo.png" alt="알라딘 로고">
+                </a>
+                <span>로그인</span>
+            </h1>
+        </header>
+        <!-- 헤더 끝 -->
+        <!-- 섹션 시작 -->
+        <section>
+            <form action="#">
+                <input type="radio" name="idTab" id="yesId" checked>
+                <input type="radio" name="idTab" id="noId">
+                <div>
+                    <div><label for="yesId">회원 로그인</label></div>
+                    <div><label for="noId">비회원 로그인</label></div>
+                </div>
+                <div>
+                    <input type="text" name="userId" id="userId" placeholder="ID 또는 E-Mail">
+                    <input type="text" name="userPw" id="userPw" placeholder="비밀번호">
+                    <input type="submit" value="로그인">
+                    <div>
+                        <input type="checkbox" name="saveId" id="saveId">
+                        <span>
+                            <label for="saveId">ID / 비밀번호 저장</label> |
+                            <a href="#">아이디 찾기</a> |
+                            <a href="#">비밀번호 찾기</a>
+                        </span>
+                    </div>
+                    <div><a href="#">알라딘 간편 회원가입</a></div>
+                    <div class="socialLogin">
+                        <a href="#"><img src="./images/naver.png" alt=""><span>네이버 아이디로 로그인</span></a>
+                    </div>
+                    <div class="socialLogin">
+                        <a href="#"><img src="./images/kakao.png" alt=""><span>카카오 아이디로 로그인</span></a>
+                    </div>
+                    <div class="socialLogin">
+                        <a href="#"><img src="./images/google.png" alt=""><span>구글 아이디로 로그인</span></a>
+                    </div>
+                </div>
+                <div>
+                    <input type="text" name="orderNum" id="orderNum" placeholder="주문번호">
+                    <input type="text" name="orderPw" id="orderPw" placeholder="주문 비밀번호">
+                    <input type="submit" value="로그인">
+                    <div>
+                        <a href="#">주문번호 찾기</a> |
+                        <a href="#">주문 비밀번호 찾기</a>
+                    </div>
+                </div>
+            </form>
+            <div class="ad">
+                <img src="./images/payinfo.jpg" alt="">
+            </div>
+        </section>
+        <!-- 섹션 끝 -->
+        <!-- 푸터 시작 -->
+        <footer>
+            <address>Copyright &copy; <strong>Aladin Communication.</strong> All Rights Reserved.</address>
+        </footer>
+        <!-- 푸터 끝 -->
+    </div>
+</body>
+
+</html>

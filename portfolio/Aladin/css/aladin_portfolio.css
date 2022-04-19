@@ -1,0 +1,190 @@
+@charset 'utf-8';
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.gnb>ul>li:nth-child(1)>a::after {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: red;
+    left: 6px;
+    top: 4px;
+    animation: blink .5s infinite;
+}
+.gnb>ul>li:nth-child(7)>a::after {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: red;
+    left: 6px;
+    top: 4px;
+    animation: blink .5s infinite;
+}
+.gnb>ul>li:nth-child(13)>a::after {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: red;
+    left: 6px;
+    top: 4px;
+    animation: blink .5s infinite;
+}
+.gnb>ul>li:nth-child(16)>a::after {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: red;
+    left: 6px;
+    top: 4px;
+    animation: blink .5s infinite;
+}
+.lnb>ul>li:nth-child(8)>div>ul>li:nth-child(2),
+.lnb>ul>li:nth-child(8)>div>ul>li:nth-child(3) {
+    position: relative;
+}
+.lnb>ul>li:nth-child(8)>div>ul>li:nth-child(2)::after, 
+.lnb>ul>li:nth-child(8)>div>ul>li:nth-child(3)::after {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: red;
+    left: 2px;
+    top: 0;
+    animation: blink .5s infinite;
+}
+.footerLnb>ul>li:nth-child(5) a {
+    position: relative;
+}
+.footerLnb>ul>li:nth-child(5) a::after {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: red;
+    left: -2px;
+    top: -5px;
+    animation: blink .5s infinite;
+}
+.address>ul>li:nth-child(9)>a:nth-child(2) {
+    position: relative;
+}
+.address>ul>li:nth-child(9)>a:nth-child(2)::after {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: red;
+    left: -2px;
+    top: -5px;
+    animation: blink .5s infinite;
+}
+.call>div:nth-child(5)>a {
+    position: relative;
+}
+.call>div:nth-child(5)>a::after {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: red;
+    left: 0;
+    top: 0;
+    animation: blink .5s infinite;
+}
+.wcardLnb li:nth-child(1) a::after {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: red;
+    left: 245px;
+    top: 20px;
+    z-index: 99;
+    animation: blink .5s infinite;
+}
+.wcardLnb li:nth-child(2) a::after {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: red;
+    left: 235px;
+    top: 15px;
+    z-index: 99;
+    animation: blink .5s infinite;
+}
+.portfolio {
+    position: relative;
+}
+.portfolio::after {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: red;
+    left: -2px;
+    top: -5px;
+    z-index: 99;
+    animation: blink .5s infinite;
+}
+.redDot {
+    position: relative;
+}
+.redDot::after {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: red;
+    left: -2px;
+    top: -5px;
+    z-index: 99;
+    animation: blink .5s infinite;
+}

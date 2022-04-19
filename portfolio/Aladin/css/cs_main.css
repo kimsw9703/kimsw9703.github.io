@@ -1,0 +1,459 @@
+@charset "utf-8";
+
+.gnb>ul>li:nth-child(13) {
+    background-color: white;
+}
+
+.gnb>ul>li:nth-child(13)>a {
+    color: #33afe9;
+}
+
+section {
+    width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 10px;
+}
+
+section>div {
+    float: left;
+}
+
+.sideMenu {
+    width: 200px;
+}
+
+.sideMenu>div {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.sideMenu>div:nth-child(1) h2 {
+    color: #ff4302;
+    display: inline;
+}
+
+.sideMenu>div:nth-child(1)>ul>li {
+    margin-bottom: 10px;
+}
+
+.sideMenu>div:nth-child(1)>ul>li>ul {
+    margin-top: 5px;
+}
+
+.sideMenu>div:nth-child(1)>ul>li>ul>li {
+    padding: 8px 0;
+    border-bottom: 2px dotted #f0f0f0;
+}
+
+.sideMenu>div:nth-child(1)>ul>li>ul>li:last-child {
+    border-bottom: none;
+}
+
+.sideMenu>div:nth-child(1)>ul>li>ul {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ff4302;
+}
+
+.sideMenu>div:nth-child(1)>ul>li:nth-child(2) h2 a {
+    color: #ff4302;
+}
+.sideMenu>div:nth-child(1)>ul>li:nth-child(2) h2 span {
+    font-size: 12px;
+    display: block;
+    float: right;
+    line-height: 18px;
+}
+
+.sideMenu>div:nth-child(1)>ul>li:nth-child(4) a:hover {
+    text-decoration: none;
+}
+
+.sideMenu>div:nth-child(2) h2 {
+    margin-bottom: 10px;
+}
+
+.sideMenu>div:nth-child(2) ul {
+    padding: 5px 5px;
+    border: 1px solid #ababab;
+}
+
+.sideMenu>div:nth-child(2) h3 {
+    font-size: 15px;
+}
+
+.sideMenu>div:nth-child(2) li {
+    padding: 5px 0;
+}
+
+.sideMenu>div:nth-child(2) li:nth-child(2),
+.sideMenu>div:nth-child(2) li:nth-child(4) {
+    color: #ff4302;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.sideMenu>div:nth-child(2) li:nth-child(2),
+.sideMenu>div:nth-child(2) li:nth-child(5) {
+    border-bottom: 1px solid #ababab;
+}
+
+.sideMenu>div:nth-child(2) li:nth-child(5) a {
+    padding: 3px;
+    background-color: #444;
+    color: #fff;
+}
+
+.sideMenu>div:nth-child(2) li:nth-child(5) {
+    padding-bottom: 10px;
+}
+.sideMenu a:hover {
+    text-decoration: underline;
+}
+.sideMenu>div:nth-child(1)>ul>li:nth-child(2) h2 a:hover {
+    text-decoration: none;
+}
+
+.contents {
+    width: 800px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.faqSearch {
+    padding-left: 20px;
+    height: 85px;
+    background-color: #f0f0f0;
+    margin-bottom: 20px;
+}
+
+.faqSearch h2 {
+    float: left;
+    display: block;
+    width: 150px;
+    font-size: 35px;
+    line-height: 85px;
+    color: #ff4302;
+}
+
+.faqSearch form {
+    float: left;
+    width: 550px;
+    height: 35px;
+    margin-top: 25px;
+}
+
+.faqSearch form select,
+.faqSearch form input,
+.faqSearch form a {
+    margin-left: 5px;
+    float: left;
+    height: 35px;
+    width: 125px;
+    border: 1px solid #ff4302;
+    box-sizing: border-box;
+}
+
+.faqSearch form input[type="text"] {
+    width: 330px;
+}
+
+.faqSearch form a {
+    background-color: #ff4302;
+    display: block;
+    width: 80px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.faqSearch form a:hover {
+    background-color: #ed4302;
+}
+
+.faqList {
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.faqList a {
+    float: left;
+    display: block;
+    width: 180px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid #ababab;
+    box-sizing: border-box;
+    margin-left: 8px;
+    font-size: 15px;
+}
+
+.faqList li:nth-child(4) a {
+    float: right;
+    height: 108px;
+    line-height: 1.5em;
+    margin-right: 8px;
+    padding-top: 33px;
+}
+
+.faqList li:nth-child(1) a,
+.faqList li:nth-child(2) a,
+.faqList li:nth-child(3) a {
+    margin-bottom: 8px;
+}
+
+.faqList li a:hover {
+    border: 1px solid #ff4302;
+    color: #ff4302;
+}
+
+.FAQWelcome {
+    background-color: #f0f0f0;
+    border: 1px solid #ababab;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 10px;
+    height: 160px;
+    transition: .5s;
+}
+
+.FAQWelcome h3 {
+    color: #ff4302;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.FAQWelcome li {
+    float: left;
+    list-style: decimal;
+    margin-left: 15px;
+    width: 330px;
+    height: 35px;
+}
+
+.FAQWelcome li a {
+    display: block;
+    list-style: decimal;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.FAQWelcome li:nth-child(7) {
+    list-style: none;
+}
+
+.FAQWelcome li:nth-child(7) a {
+    display: none;
+}
+
+.FAQWelcome li a:hover {
+    text-decoration: underline;
+    color: #33afe9;
+}
+
+label[for="FAQ"] {
+    display: block;
+    height: 25px;
+    background-color: #ababab;
+    text-align: center;
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+label[for="FAQ"]::after {
+    content: "질문 더보기 ▼";
+    display: block;
+    text-align: center;
+}
+
+input#FAQ:checked~.FAQWelcome li:nth-child(7) {
+    list-style: decimal;
+}
+
+input#FAQ:checked~.FAQWelcome li:nth-child(7) a {
+    display: block;
+}
+
+input#FAQ:checked~.FAQWelcome {
+    height: 190px;
+}
+
+input#FAQ:checked~label[for="FAQ"]::after {
+    content: "질문 접기 ▲";
+}
+
+input#FAQ {
+    display: none;
+}
+
+.FAQAccordion {
+    overflow: hidden;
+}
+
+.FAQAccordion h2 {
+    margin-bottom: 15px;
+}
+
+.FAQAccordion input[type="checkbox"] {
+    display: none;
+}
+
+.FAQAccordion li {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+.FAQAccordion label {
+    padding: 0 10px;
+    background-color: #ababab;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+}
+
+.FAQAccordion h3 span {
+    float: right;
+}
+
+.FAQAccordion1,
+.FAQAccordion2 {
+    width: calc(50% - 5px);
+    float: left;
+}
+
+.FAQAccordion1 {
+    margin-right: 10px;
+}
+
+.FAQAccordion1_1 {
+    height: 30px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    transition: .5s;
+    border: 1px solid #ababab;
+}
+
+.FAQAccordion1_1 li {
+    padding: 10px 0;
+}
+
+.FAQAccordion1_1 a:hover {
+    text-decoration: underline;
+    color: #33afe9;
+}
+
+input#accordion1_1:checked~.FAQAccordion1 .FAQAccordion1_1 {
+    height: 400px;
+}
+
+.FAQAccordion1_2 {
+    height: 30px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    transition: .5s;
+    border: 1px solid #ababab;
+}
+
+.FAQAccordion1_2 li {
+    padding: 10px 0;
+}
+
+.FAQAccordion1_2 a:hover {
+    text-decoration: underline;
+    color: #33afe9;
+}
+
+input#accordion1_2:checked~.FAQAccordion1 .FAQAccordion1_2 {
+    height: 390px;
+}
+
+.FAQAccordion2_1 {
+    height: 30px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    transition: .5s;
+    border: 1px solid #ababab;
+}
+
+.FAQAccordion2_1 li {
+    padding: 10px 0;
+}
+
+.FAQAccordion2_1 a:hover {
+    text-decoration: underline;
+    color: #33afe9;
+}
+
+input#accordion2_1:checked~.FAQAccordion2 .FAQAccordion2_1 {
+    height: 400px;
+}
+
+.FAQAccordion2_2 {
+    height: 30px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    transition: .5s;
+    border: 1px solid #ababab;
+}
+
+.FAQAccordion2_2 li {
+    padding: 10px 0;
+}
+
+.FAQAccordion2_2 a:hover {
+    text-decoration: underline;
+    color: #33afe9;
+}
+
+input#accordion2_2:checked~.FAQAccordion2 .FAQAccordion2_2 {
+    height: 390px;
+}
+.FAQAccordion1_1 label h3::after {
+    display: block;
+    content: "+ 펴보기";
+    float: right;
+}
+
+input#accordion1_1:checked~.FAQAccordion1 .FAQAccordion1_1 label h3::after{
+    display: block;
+    content: "- 접기";
+    float: right;
+}
+.FAQAccordion1_2 label h3::after {
+    display: block;
+    content: "+ 펴보기";
+    float: right;
+}
+
+input#accordion1_2:checked~.FAQAccordion1 .FAQAccordion1_2 label h3::after{
+    display: block;
+    content: "- 접기";
+    float: right;
+}
+.FAQAccordion2_1 label h3::after {
+    display: block;
+    content: "+ 펴보기";
+    float: right;
+}
+
+input#accordion2_1:checked~.FAQAccordion2 .FAQAccordion2_1 label h3::after{
+    display: block;
+    content: "- 접기";
+    float: right;
+}
+.FAQAccordion2_2 label h3::after {
+    display: block;
+    content: "+ 펴보기";
+    float: right;
+}
+
+input#accordion2_2:checked~.FAQAccordion2 .FAQAccordion2_2 label h3::after{
+    display: block;
+    content: "- 접기";
+    float: right;
+}
